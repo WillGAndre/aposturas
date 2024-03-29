@@ -1,3 +1,5 @@
 # aposturas
-- Encryption is done with each `git push` based on the chosen password.
-- Decryption is be done using `decrypt.sh` (probably after a `git clone`).
+- Encryption & Decryption is done with `run.sh`.
+    - `./run.sh encrypt` (Before each `git push`)
+    - `./run.sh decrypt` (After each `git clone`)
+Generate your password somewhere else ;)
